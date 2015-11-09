@@ -32,5 +32,18 @@ nav li {
 section#about-me {
   height: 95vh;
   background: pink;
+}
 
+footer i.fa-github {
+  font-size: 200px;
+  color: magenta;  
+  transition: color, .5s;
+  -webkit-transition: color, transform, .5s;
+}
+
+footer i.fa-github:hover {
+  color: blue;
+  transform: rotate(10deg);
+  transition: color, .5s;
+  -webkit-transition: color, transform, .5s;
 }
