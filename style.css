@@ -1,3 +1,36 @@
-body {
-  background: blue;
+/* BOX SIZING BORDER BOX */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* MY STYLES */
+
+nav a {
+  text-decoration: none;
+}
+
+nav li { 
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+section#about-me {
+  height: 95vh;
+  background: pink;
+
 }
