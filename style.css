@@ -13,14 +13,13 @@ html, body {
 }
 
 
+/* MY STYLES */
+
 body{
 
 background-color: #292929;
 
 }
-
-/* MY STYLES */
-
 
 .container-nav {
   max-width: 1500px;
@@ -36,7 +35,6 @@ background-color: #292929;
   margin: auto;
 
 }
-
 
 
 .container-footer {

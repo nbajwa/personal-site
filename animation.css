@@ -5,7 +5,7 @@
 
 .text {
   fill: none;
-  stroke-width: 5.5;
+  stroke-width: 5;
   stroke-linejoin: round;
   stroke-dasharray: 70 330;
   stroke-dashoffset: 0;
@@ -61,7 +61,7 @@
 
 svg {
   background: #292929;
-  font: 20.0em Open Sans, Impact;
+  font: 17.0em Open Sans, Impact;
   text-transform: uppercase;
   margin: auto;
   display:block;
