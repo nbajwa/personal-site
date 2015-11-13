@@ -12,36 +12,75 @@ html, body {
   padding: 0;
 }
 
+
+body{
+
+background-color: #292929;
+
+}
+
 /* MY STYLES */
+
+
+.container-nav {
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+
+}
 
 
 .container {
   max-width: 900px;
   width: 100%;
   margin: auto;
+
 }
 
+
+
+.container-footer {
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+
+}
+
+section{
+
+font-family: 'Titillium Web', sans-serif;
+
+}
 section#about-me {
-  height: 95vh;
-  background:#292929 ;
+  height: 70vh;
+  background:#292929;
+}
+section#resume {
+  height: 70vh;
+  background:#292929;
+}
+section#resume{
+  height: 70 vh;
+  background:#292929;
 }
 
 footer{
   width: 100%;
   text-align: center;
-  background: ;
-}
+ /* background: black;
+   opacity: .3;
+*/}
 
-footer i.fa-github, i.fa-twitter, i.fa-linkedin{
+footer i.fa-github, i.fa-twitter, i.fa-linkedin, i.fa-instagram{
   font-size: 60px;
-  color: magenta;
+  color:#4744ae;
   padding:0px 70px 0px 0px; 
   transition: color, .5s;
   -webkit-transition: color, transform, .5s;
 }
 
-footer i.fa-github:hover,i.fa-twitter:hover, i.fa-linkedin:hover {
-  color: blue;
+footer i.fa-github:hover,i.fa-twitter:hover, i.fa-linkedin:hover, i.fa-instagram:hover{
+  color: #800f80;
   transform: rotate(10deg);
   transition: color, .5s;
   -webkit-transition: color, transform, .5s;
