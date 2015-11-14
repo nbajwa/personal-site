@@ -50,15 +50,16 @@ font-family: 'Titillium Web', sans-serif;
 
 }
 section#about-me {
-  height: 70vh;
+  margin-top: 300px;
+  height: 50vh;
   background:#292929;
 }
-section#resume {
-  height: 70vh;
+section#projects {
+  height: 50vh;
   background:#292929;
 }
 section#resume{
-  height: 70 vh;
+  height: 50 vh;
   background:#292929;
 }
 
