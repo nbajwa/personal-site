@@ -47,6 +47,7 @@ background-color: #292929;
 section{
 
 font-family: 'Titillium Web', sans-serif;
+font-weight: ;
 
 }
 section#about-me {
@@ -55,18 +56,19 @@ section#about-me {
   background:#292929;
 }
 section#projects {
-  height: 50vh;
+  height: 70vh;
   background:#292929;
 }
 section#resume{
-  height: 50 vh;
- /* height: 70 vh;*/
+  height: 40vh;
   background:#292929;
 }
 
 footer{
   width: 100%;
   text-align: center;
+  margin: auto;
+  padding-left: 70px;
  /* background: black;
    opacity: .3;
 */}
