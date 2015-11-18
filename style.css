@@ -37,6 +37,15 @@ background-color: #292929;
 }
 
 
+.img-circle {
+    border-radius: 50%;
+}
+
+
+
+
+
+
 .container-footer {
   max-width: 1500px;
   width: 100%;
@@ -47,11 +56,10 @@ background-color: #292929;
 section{
 
 font-family: 'Titillium Web', sans-serif;
-font-weight: ;
 
 }
 section#about-me {
-  margin-top: 300px;
+  margin-top: 50px;
   height: 50vh;
   background:#292929;
 }
@@ -110,7 +118,49 @@ footer i.fa-github:hover,i.fa-twitter:hover, i.fa-linkedin:hover, i.fa-instagram
 }
 
 
+p a {
+
+color: #800f80;
+
+
+}
+
+#center-aboutme{
+text-align: center;
+}
+
+
+.button-div{
+
+  text-align: center;
+ /* padding:10px;*/
+  margin: 250px;
+  /*margin: 0 auto;*/
+ /* border: solid 3px black;*/
+
+}
+
+input {
+
+ margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #009ac9;
+  border: 1px solid transparent;
+  color: #d8ee2f;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: 
+}
 
 
 
+h2{
 
+  color: white;
+  opacity: .3;
+  font-weight: normal;
+  font-size: 30px;
+}
