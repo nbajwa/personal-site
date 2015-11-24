@@ -41,6 +41,9 @@ background-color: #292929;
     border-radius: 50%;
    /* float:left;*/
    text-align: center;
+   width: 210px;
+   display: block;
+   margin: 0 auto;
 }
 
 
@@ -61,16 +64,16 @@ font-family: 'Titillium Web', sans-serif;
 
 }
 section#about-me {
-  margin-top: 300px;
-  height: 70vh;
   background:#292929;
+  margin: 50px 0;
+  margin-top: 150px;
 }
 section#projects {
-  height: 70vh;
   background:#292929;
+  margin: 50px 0;
 }
 section#resume{
-  height: 40vh;
+  margin: 50px 0;
   background:#292929;
 }
 
@@ -141,7 +144,7 @@ text-align: center;
 
   text-align: center;
  /* padding:10px;*/
-  margin: 250px;
+  margin: 120px 0;
   /*margin: 0 auto;*/
  /* border: solid 3px black;*/
 
@@ -217,12 +220,23 @@ input {
 
 #more{
   text-align: center;
-  width: 100%;
-  border: solid 3px black;
+  /*border: solid 3px black;*/
 }
 
 
+#arrow{
+ margin: auto;
+ width: 70px;
+ display: block;
+ height: 100px;
+ animation: pulse 2s infinite;
+}
 
+@keyframes pulse {
+  50% {
+    transform: translateY(15px);
+  }
+}
 
 
 
