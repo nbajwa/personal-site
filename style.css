@@ -48,9 +48,6 @@ background-color: #292929;
 
 
 
-
-
-
 .container-footer {
   max-width: 1500px;
   width: 100%;
@@ -82,6 +79,7 @@ footer{
   text-align: center;
   margin: auto;
   padding-left: 70px;
+margin-bottom: 30px;
  /* background: black;
    opacity: .3;
 */}
@@ -143,10 +141,7 @@ text-align: center;
 .button-div{
 
   text-align: center;
- /* padding:10px;*/
-  margin: 120px 0;
-  /*margin: 0 auto;*/
- /* border: solid 3px black;*/
+  margin: 50px 0;
 
 }
 
