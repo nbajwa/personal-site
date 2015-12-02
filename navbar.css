@@ -87,7 +87,7 @@ nav li {
 
 /* 
   put the "front" and "back" elements into place with CSS transforms, 
-  specifically translation and translatez
+  specifically translation and translate
 */
 .front {
   transform: rotatex(0deg) translatez(25px);
