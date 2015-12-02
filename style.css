@@ -22,13 +22,16 @@ background-color: #292929;
 }
 
 .profession{
- 
+ width: 50%;
+ margin: auto;
 }
 
 
 #bold{
- /* font-weight: bold;*/
   margin-top: -10px;
+  /*margin
+  border-style: ;*/
+/*  border-bottom: thin dotted #4744AE;*/
   font-size:35px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
@@ -230,6 +233,7 @@ input {
 
 #more{
   text-align: center;
+  margin-top: -20px;
   /*border: solid 3px black;*/
 }
 
