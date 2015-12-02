@@ -21,6 +21,21 @@ background-color: #292929;
 
 }
 
+.profession{
+ 
+}
+
+
+#bold{
+ /* font-weight: bold;*/
+  margin-top: -10px;
+  font-size:35px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  color: rgba(154, 149, 149, 1);
+}
+
+
 .container-nav {
   max-width: 1500px;
   width: 100%;
