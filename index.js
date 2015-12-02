@@ -5,7 +5,7 @@ $(document).ready(function() {
 
    $('html, body').animate({
     scrollTop: $("#about-me").offset().top
-}, 1000);
+}, 1200);
 
   
 });
