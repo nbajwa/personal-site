@@ -29,13 +29,15 @@ background-color: #292929;
 
 #bold{
   margin-top: -10px;
+  margin-bottom: 170px;
   /*margin
   border-style: ;*/
 /*  border-bottom: thin dotted #4744AE;*/
-  font-size:35px;
+  font-size:28px;
   text-align: center;
-  font-family: 'Titillium Web', sans-serif;
-  color: rgba(154, 149, 149, 1);
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #388077;
+  letter-spacing: 3px;
 }
 
 
@@ -175,13 +177,12 @@ input {
   font-family: 'Titillium Web', sans-serif;
   padding: 1.25rem 2.5rem;
   display: block;
-  background-color: rgb 23 23 23;
-  border: 1px solid transparent;
-  color: rgb 75 75 75; 
+  background: none;
+  border: 1px solid #999;
+  color: #999; 
   font-weight: 300;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  font: 
 }
 
 /* Back Pulse */
@@ -224,8 +225,7 @@ input {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   background-color: #800f80;
-  background-color: #800f80;
-  color: rgb (23, 23, 23);
+  border: 1px solid transparent;
 }
 
 

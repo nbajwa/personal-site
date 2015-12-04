@@ -95,7 +95,7 @@ nav li {
 
 .back {
   transform: rotatex(-90deg) translatez(25px);
-  color: #292929;
+  
 }
 
 .front, .back {
