@@ -63,6 +63,7 @@ nav li {
 .three-d {
   perspective: 200px;
   transition: all .07s linear;
+  -webkit-transition: all .07s linear;
   position: relative;
   cursor: pointer;
 }
@@ -70,12 +71,16 @@ nav li {
   .three-d:hover .three-d-box, 
   .three-d:focus .three-d-box {
     transform: translateZ(-25px) rotateX(90deg);
+    -webkit-transform: translateZ(-25px) rotateX(90deg);
   }
 
 .three-d-box {
   transition: all .3s ease-out;
-  transform: translatez(-25px);
+  -webkit-transition: all .3s ease-out;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform: translatez(-25px);
+  -webkit-transform: translatez(-25px);
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -91,11 +96,12 @@ nav li {
 */
 .front {
   transform: rotatex(0deg) translatez(25px);
+  -webkit-transform: rotatex(0deg) translatez(25px);
 }
 
 .back {
   transform: rotatex(-90deg) translatez(25px);
-  
+  -webkit-transform: rotatex(-90deg) translatez(25px);
 }
 
 .front, .back {
