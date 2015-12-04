@@ -3,3 +3,30 @@
     padding: 0 40px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  footer i.fa-github, i.fa-twitter, i.fa-linkedin, i.fa-instagram {
+    font-size: 40px;
+    padding: 0px 40px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  svg{
+    font-size: 400px;
+  }
+
+  #bold {
+    margin-top: 20px;
+  }
+
+  #more {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer i.fa-github, i.fa-twitter, i.fa-linkedin, i.fa-instagram {
+    padding: 0px 20px 0px 0px;
+  }
+}
